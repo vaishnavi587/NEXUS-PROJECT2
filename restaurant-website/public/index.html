@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    />
+    
+    <style>
+       body {
+      margin: 0; /* Remove default body margin */
+      padding: 0; /* Remove default body padding */
+    }
+    #special-offers {
+      font-family: 'Georgia', serif;
+      margin-top: -10px; /* Adjust the margin-top value as needed */
+    }
+      header {
+        background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+          url("header_background.jpg") center/cover no-repeat;
+        color: white;
+        text-align: center;
+        padding: 20px 0;
+        position: relative;
+        box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+        margin-bottom: 10px;
+      }
+
+      header h1 {
+        font-family: 'Georgia', serif; 
+        font-size: 3rem;
+        margin-bottom: 1px;
+      }
+
+      header p {
+        font-family: 'Georgia', serif;
+        font-size: 1.5rem;
+        margin-bottom: 30px;
+      }
+
+      /* Style for the navbar */
+      nav {
+        background-color: rgba(0, 0, 0, 0.7);
+        position: absolute;
+        width: 100%;
+        top: 0;
+        z-index: 3; /* Bring the navbar in front of the carousel and text */
+        margin-top: -10px;
+      }
+
+      .navbar-brand, .nav-link {
+      font-family: 'Georgia', serif;
+      font-size: 1.2em;
+      color: #fff; /* White text color for links */
+    }
+
+    .container {
+      margin-top: 20px; /* Adjusted margin-top for content spacing */
+    }
+
+    h2 {
+      font-family: 'Georgia', serif; /* Apply the same font to the menu heading */
+      font-size: 2em; /* Adjust the font size as needed */
+      color: #333;
+      margin-bottom: 10px;
+    }
+
+    section {
+      margin-top: 20px; /* Adjusted margin-top for section spacing */
+    }
+
+    .col-md-4 h4,
+    .col-md-4 p {
+      font-family: 'Georgia', serif;
+      font-size: 1.2em;
+      color: #333;
+    }
+
+      footer {
+        background-color: #f8f9fa;
+        padding: 20px 0;
+        text-align: center;
+        position: relative;
+      }
+    </style>
+    <title>Zestful Delights</title>
+  </head>
+  <body>
+    <!-- Transparent Header -->
+    <header class="text-center">
+      <h1>Welcome to Zestful Delights</h1>
+      <p>Discover the Delightful Flavors</p>
+    </header>
+
+    <!-- Navigation Bar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <div class="container">
+        <a class="navbar-brand" href="#">Restaurant</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div
+          class="collapse navbar-collapse justify-content-end"
+          id="navbarNav"
+        >
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="#menu">Menu</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#special-offers">Special Offers</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#reservation">Reservation</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="login.html">Login</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="signup.html">Sign Up</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Menu items go here -->
+    <!-- Menu Section -->
+    <div class="container mt-3">
+      <h2>Our Menu</h2>
+      <div class="row">
+        <div class="col-md-4">
+          <img src="menu_item1.jpg" alt="Menu Item 1" class="img-fluid" />
+          <h4>Special Dish 1</h4>
+          <p>
+            Description of the dish. Lorem ipsum dolor sit amet, consectetur
+            adipiscing elit.
+          </p>
+        </div>
+        <div class="col-md-4">
+          <img src="menu_item2.jpg" alt="Menu Item 2" class="img-fluid" />
+          <h4>Special Dish 2</h4>
+          <p>
+            Description of the dish. Lorem ipsum dolor sit amet, consectetur
+            adipiscing elit.
+          </p>
+        </div>
+        <div class="col-md-4">
+          <img src="menu_item3.jpg" alt="Menu Item 3" class="img-fluid" />
+          <h4>Special Dish 3</h4>
+          <p>
+            Description of the dish. Lorem ipsum dolor sit amet, consectetur
+            adipiscing elit.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Special Offers Section -->
+    <div id="special-offers" class="container mt-5">
+      <div class="row">
+        <!-- Special offers go here -->
+        <!-- Special Offers Section -->
+        <div class="container mt-5">
+          <h2>Special Offers</h2>
+
+          <div class="row">
+            <div class="col-md-6">
+              <img src="offer1.jpg" alt="Special Offer 1" class="img-fluid" />
+              <h4>Special Offer 1</h4>
+              <p>
+                Discounted meal for a limited time. Lorem ipsum dolor sit amet,
+                consectetur adipiscing elit.
+              </p>
+            </div>
+            <div class="col-md-6">
+              <img src="offer2.jpg" alt="Special Offer 2" class="img-fluid" />
+              <h4>Special Offer 2</h4>
+              <p>
+                Free dessert with every main course. Lorem ipsum dolor sit amet,
+                consectetur adipiscing elit.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Reservation Form Section -->
+    <div id="reservation" class="container mt-5">
+      <form>
+        <!-- Reservation form goes here -->
+        <!-- Reservation Form Section -->
+        <div class="container mt-5">
+          <h2>Make a Reservation</h2>
+          <form>
+            <div class="form-row">
+              <div class="form-group col-md-6">
+                <label for="name">Full Name</label>
+                <input
+                  type="text"
+                  class="form-control"
+                  id="name"
+                  placeholder="Your Full Name"
+                />
+              </div>
+              <div class="form-group col-md-6">
+                <label for="email">Email</label>
+                <input
+                  type="email"
+                  class="form-control"
+                  id="email"
+                  placeholder="Your Email"
+                />
+              </div>
+            </div>
+            <div class="form-row">
+              <div class="form-group col-md-6">
+                <label for="date">Date</label>
+                <input type="date" class="form-control" id="date" />
+              </div>
+              <div class="form-group col-md-6">
+                <label for="time">Time</label>
+                <input type="time" class="form-control" id="time" />
+              </div>
+            </div>
+            <button type="submit" class="btn btn-primary">
+              Submit Reservation
+            </button>
+          </form>
+        </div>
+      </form>
+    </div>
+
+    <!-- Login and Signup Buttons -->
+    <div class="container mt-5 text-center">
+      <p>Already have an account? <a href="login.html">Login</a></p>
+      <p>Don't have an account yet? <a href="signup.html">Sign Up</a></p>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+      <p>&copy; 2024 Restaurant. All rights reserved.</p>
+    </footer>
+
+    <!-- Bootstrap JavaScript and Popper.js (required for Bootstrap components) -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+    <script>
+      // Activate the carousel
+      $(".carousel").carousel();
+    </script>
+  </body>
+</html>

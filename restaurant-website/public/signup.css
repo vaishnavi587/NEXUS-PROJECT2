@@ -1,0 +1,46 @@
+/* signup.css */
+
+/* Decrease the width of the signup form container */
+.card {
+  background-color: #4c4c4c; /* Grey background color */
+  height: 90%;
+  margin: auto; /* Center the form horizontally */
+  margin-top: 48px; /* Add top margin for better spacing */
+}
+
+/* Change text color of the signup form heading */
+.card-body h1 {
+  color: #fff; /* White text color (complementary to grey) */
+}
+
+/* Change text color of the field names (labels) to white */
+.card-body label {
+  color: #fff; /* White text color for labels */
+}
+
+/* Change text color of the input fields to white */
+.card-body input[type="text"],
+.card-body input[type="password"] {
+  color: #000; /* White text color for input fields */
+}
+
+/* Add placeholders with light grey text color */
+.card-body input[type="text"]::placeholder,
+.card-body input[type="password"]::placeholder {
+  color: #ccc; /* Light grey text color for placeholders */
+}
+
+/* Change background color of the signup form submit button */
+.btn-primary {
+  background-color: #424242; /* Dark grey background color (complementary to grey) */
+  border-color: #424242; /* Dark grey border color */
+  color: #fff; /* White text color */
+  transition: background-color 0.3s ease; /* Smooth transition on background color change */
+}
+
+/* Change background color of the signup form submit button on hover */
+.btn-primary:hover {
+  background-color: #757575; /* Grey background color on hover */
+  border-color: #757575; /* Grey border color on hover */
+  color: #fff; /* Text color on hover, adjust as needed */
+}

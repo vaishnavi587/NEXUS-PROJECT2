@@ -1,0 +1,51 @@
+/* login.css */
+
+/* Add box-shadow to create a highlighted background effect */
+.card {
+  background-color:  #a0522d ; /* Chocolate brown background color */
+  box-shadow: 0 0 20px rgba(255, 255, 255, 0.2); /* Subtle white box-shadow for highlight */
+}
+
+/* Change text color of the login form heading */
+.card-body h1 {
+  color: #fff; /* White text color (complementary to chocolate brown) */
+}
+
+/* Change text color of the labels (username and password) to white */
+.card-body label {
+  color: #fff; /* White text color for labels */
+}
+
+/* Change text color of the username and password fields to white */
+.card-body input[type="text"],
+.card-body input[type="password"] {
+  color:#000 ; /* White text color for input fields */
+}
+
+/* Add placeholders with light grey text color */
+.card-body input[type="text"]::placeholder,
+.card-body input[type="password"]::placeholder {
+  color: #ccc; /* Light grey text color for placeholders */
+}
+
+/* Change background color of the login form submit button */
+.btn-primary {
+  background-color: #8d6e63; /* Brownish grey background color (complementary to chocolate brown) */
+  border-color: #8d6e63; /* Brownish grey border color */
+  color: #fff; /* White text color */
+  transition: background-color 0.3s ease; /* Smooth transition on background color change */
+}
+
+/* Change background color of the login form submit button on hover */
+.btn-primary:hover {
+  background-color: #f5e1cb; /* Biscuit color on hover */
+  border-color: #f5e1cb; /* Biscuit color border on hover */
+  color: #8d6e63; /* Text color on hover, adjust as needed */
+}
+
+/* Change background color of the login form submit button on press (active state) */
+.btn-primary:active {
+  background-color: #f5e1cb; /* Biscuit color on press */
+  border-color: #f5e1cb; /* Biscuit color border on press */
+  color: #8d6e63; /* Text color on press, adjust as needed */
+}
