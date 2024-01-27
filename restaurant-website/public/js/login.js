@@ -22,7 +22,7 @@ document.addEventListener('DOMContentLoaded', function () {
       if (isExistingUser) {
         alert('Login successful! Welcome back, ' + username);
         // Redirect to the home page or any other page for existing users
-        window.location.href = 'Home.html';
+        window.location.href = 'index.html';
       } else {
         alert('You don\'t have an account. Please sign up.');
         // Redirect to the sign-up page for new users
